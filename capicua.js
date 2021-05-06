@@ -7,7 +7,7 @@ let interfazCaptura = readline.createInterface({
 });
 
 interfazCaptura.question(' escriba un número', function(respuesta){
-    let numero = respuesta;
+    let numero = respuest;
     var num_inver = numero.split("").reverse().join("");
     if (numero == num_inver) { //Si la palabra es igual a la palabra girada.
     console.log("el número '"+numero+"' SI es capicua");
